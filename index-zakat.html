@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let wealth=3000;
+        let isGoldNisabReached=false;
+        let isSilverNisabReached=false;
+        var issomeGoldPresent=false;
+        var issomeSilverPresent=true;
+        if(wealth>=75000 || (isGoldNisabReached==true || isSilverNisabReached==true)){
+            console.log(`you have to pay zakat of your money`)
+        }
+        else if (wealth<75000 && (issomeGoldPresent==true || issomeSilverPresent==true))
+        {console.log(`you have to pay zakat of your money now aswell`)}
+        else {console.log('you have not to pay zakat of your money ')};
+
+
+    </script>
+    
+</body>
+</html>
