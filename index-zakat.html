@@ -12,10 +12,10 @@
         let isSilverNisabReached=false;
         var issomeGoldPresent=false;
         var issomeSilverPresent=true;
-        if(wealth>=75000 || (isGoldNisabReached==true || isSilverNisabReached==true)){
+        if(wealth>=75000 || (isGoldNisabReached || isSilverNisabReached==true)){
             console.log(`you have to pay zakat of your money`)
         }
-        else if (wealth<75000 && (issomeGoldPresent==true || issomeSilverPresent==true))
+        else if (wealth<75000 && (issomeGoldPresent || issomeSilverPresent))
         {console.log(`you have to pay zakat of your money now aswell`)}
         else {console.log('you have not to pay zakat of your money ')};
 
